@@ -1,0 +1,59 @@
+.imgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.movie {
+  display: flex;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.button {
+  background-color: #b0a695;
+  color: #f3eeea;
+  border: 1px solid #b0a695;
+}
+
+.button:hover {
+  border: 1px solid #776b5d;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.genres {
+  display: flex;
+  gap: 15px;
+}
+
+.additional {
+  margin-top: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  transition: color 250ms;
+  color: #776b5d;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: red;
+}
